@@ -10,7 +10,7 @@
 
 html, body {
     min-height: 100vh;
-    background-color: white;
+    background-color: lightgray;
     font-family: "Sriracha", cursive;
     font-weight: 400;
     font-style: normal;
@@ -19,19 +19,12 @@ html, body {
 header {
     background-color: black;
     color: white;
-    text-align: center;
-    height: 200px;
-    padding: 50px;
+    text-align: center;    
 }
 
 header > h1 {      
     padding-top: 50px;
-    font-variant: small-caps;
-    font-family: "Passion One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 9em;    
-    margin-bottom: -30px;
+    font-variant: small-caps;    
 }
 
 header > p {
@@ -48,29 +41,26 @@ a:hover {
     text-decoration: underline;
 }
 
-#section01 {
-    margin: 200px 50px;
-    font-size: 4em;
-    line-height: 200%;
-}
-
-#section02 {
-    background-color: black;
-    background-image: url("imagens/background001.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: right center;
-    padding: 50px;
-}
-
-#section02 > p {
+section {
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     padding-left: 30px;
-    margin: 300px 0px;
-    width: 765px;
-    background-color: rgba(0, 0, 0, 0.450);
-    color: white;
-    font-size: 4em;
-    line-height: 200%;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(59, 59, 59);
+    color: white
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.233);
 }
 
 footer {
