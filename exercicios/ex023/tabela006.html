@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(231, 231, 231);
+        }
+
+        div#container {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet magni qui repudiandae nostrum ex cum ratione quos numquam, a amet minus dolorum sunt accusamus dolorem repellendus praesentium accusantium inventore modi! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quia illum consequatur ipsa assumenda ipsam vero ut. Non libero delectus incidunt expedita dignissimos ex sit cum quos, quibusdam nisi corrupti? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex omnis sed tempore quod odit quasi blanditiis quae voluptatem quaerat iste temporibus sint, aliquam obcaecati nobis adipisci vitae officia in suscipit!</p>
+
+    <div id="container">
+        <table>
+            <caption>Tabelas Responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>Abr</th>
+                    <th>Mai</th>
+                    <th>Jun</th>
+                    <th>Jul</th>
+                    <th>Ago</th>
+                    <th>Set</th>
+                    <th>Out</th>
+                    <th>Nov</th>
+                    <th>Dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <th>Amazon Echo</th>
+                    <th>01</th>
+                    <th>04</th>
+                    <th>07</th>
+                    <th>12</th>
+                    <th>12</th>
+                    <th>10</th>
+                    <th>05</th>
+                    <th>02</th>
+                    <th>01</th>
+                    <th>01</th>
+                    <th>04</th>
+                    <th>16</th>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
